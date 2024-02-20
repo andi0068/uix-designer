@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.desktop-grid {
+  @apply lg:grid lg:grid-cols-12 lg:gap-x-5;
+}
+.scroll-target {
+  @apply scroll-mt-14 lg:scroll-mt-20;
+}
